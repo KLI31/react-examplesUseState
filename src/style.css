@@ -15,7 +15,7 @@ p {
   width: 6.5em;
   height: 2.3em;
   margin: 0.5em;
-  background: green;
+  background: red;
   color: white;
   border: none;
   border-radius: 0.625em;
@@ -32,6 +32,27 @@ p {
   height: 2.3em;
   margin: 0.5em;
   background: red;
+  color: white;
+  border: none;
+  border-radius: 0.625em;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.btns{
+  display: flex;
+  justify-content: center;
+}
+
+.button2 {
+  width: 6.5em;
+  height: 2.3em;
+  margin: 0.5em;
+  background: green;
   color: white;
   border: none;
   border-radius: 0.625em;
